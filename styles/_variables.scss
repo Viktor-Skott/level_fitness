@@ -1,0 +1,29 @@
+:root {
+    // Цвета
+    --color-light: #ffffff;
+    --color-dark: #000000;
+    --color-dark-alt: #1B1B1B;
+    --color-orange: #E7490F;
+    --color-gray: #7F7F7F;
+    --color-gray-alt: #C4C4C4;
+
+    // Кнопки формы отступы итд
+    --border: 1px solid var(--color-orange);
+
+    --font-family-base: 'Lato', sans-serif;
+
+    --container-width: 1150px;
+    --container-padding-x: 20px;
+    --section-padding-y: 110px;
+
+    --form-height: 60px;
+    --button-height-large: 60px;
+    --button-height-low: 44px;
+    
+    --transition-duration: 0.2s;
+
+
+
+
+
+}

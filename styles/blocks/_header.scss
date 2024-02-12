@@ -1,0 +1,39 @@
+.header {
+    padding-block: 30px;
+    padding-bottom: 35px;
+
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__info-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    &__connect {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+    }
+
+    &__menu {
+        &-list {
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+        }
+    }
+
+    &__connect-button {
+        height: 44px;
+        padding-inline: 33px;
+        font-size: 14px;
+        background-color: var(--color-orange);
+    }
+}

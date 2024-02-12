@@ -1,0 +1,26 @@
+.button {
+    @include flex-center(true);
+    
+    border: none;
+    padding-inline: 60px;
+    font-size: 14px;
+    color: var(--color-light);
+    height: var(--button-height-large);
+    color: var(--color-light);
+    background-color: var(--color-orange);
+
+
+    &-low {
+        height: var(----input-height-low);
+        color: var(--color-orange);
+        background-color: inherit;
+        border: 1px solid var(--color-orange);
+        padding-inline: 110px;
+    }
+
+
+    &--transparent {
+        height: 44px;
+        padding-inline: 33px;
+    }
+}
